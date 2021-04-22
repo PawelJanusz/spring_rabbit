@@ -1,11 +1,11 @@
-package pl.spring.rabbit.springRabbit.model;
+package pl.spring.rabbit.springRabbit.listener;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.messaging.Message;
 import org.springframework.stereotype.Component;
-import pl.spring.rabbit.springRabbit.MessageDatabase;
+import pl.spring.rabbit.springRabbit.data.MessageDatabase;
 import pl.spring.rabbit.springRabbit.configuration.RabbitConfiguration;
 import pl.spring.rabbit.springRabbit.repository.MessageRepository;
 

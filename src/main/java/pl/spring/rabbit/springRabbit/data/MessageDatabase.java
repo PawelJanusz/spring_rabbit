@@ -1,4 +1,4 @@
-package pl.spring.rabbit.springRabbit;
+package pl.spring.rabbit.springRabbit.data;
 
 public class MessageDatabase {
 
