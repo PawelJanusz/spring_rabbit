@@ -6,7 +6,6 @@ import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.web.bind.annotation.*;
-import org.w3c.dom.stylesheets.LinkStyle;
 import pl.spring.rabbit.springRabbit.MessageDatabase;
 import pl.spring.rabbit.springRabbit.configuration.RabbitConfiguration;
 import pl.spring.rabbit.springRabbit.model.Message;
